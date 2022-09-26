@@ -31,11 +31,13 @@ import Card17 from './Components/Cards/Card17';
 import Card18 from './Components/Cards/Card18';
 import Card19 from './Components/Cards/Card19';
 
+import Footer from './Footer';
+
 export default function App() {
   return (
     <div>
-      <main className="i_____components">
-        <section className="i__1 bg-primary">
+      <main className="main">
+        <section className="boots-section-1 bg-dark">
           <Button1 />
           <Button2 />
           <Button3 />
@@ -44,7 +46,7 @@ export default function App() {
           <Button6 />
         </section>
 
-        <section className="i__2 bg-dark">
+        <section className="boots-section-2 bg-light">
           <Card1 />
           <Card2 />
           <Card3 />
@@ -65,6 +67,8 @@ export default function App() {
           <Card18 />
           <Card19 />
         </section>
+
+        <Footer />
       </main>
     </div>
   );
