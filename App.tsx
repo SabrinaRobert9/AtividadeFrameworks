@@ -36,44 +36,40 @@ export default function App() {
     console.log(`Error n-> ${n}\nMensage -> ${prop}`);
   };
 
-  try {
-    return (
-      <div>
-        <main className="i_____components">
-          <section className="i__1 bg-primary">
-            <Button1 />
-            <Button2 />
-            <Button3 />
-            <Button4 />
-            <Button5 />
-            <Button6 />
-          </section>
+  return (
+    <div>
+      <main className="i_____components">
+        <section className="i__1 bg-primary">
+          <Button1 />
+          <Button2 />
+          <Button3 />
+          <Button4 />
+          <Button5 />
+          <Button6 />
+        </section>
 
-          <section className="i__2 bg-dark">
-            <Card1 />
-            <Card2 />
-            <Card3 />
-            <Card4 />
-            <Card5 />
-            <Card6 />
-            <Card7 />
-            <Card8 />
-            <Card9 />
-            <Card10 />
-            <Card11 />
-            <Card12 />
-            <Card13 />
-            <Card14 />
-            <Card15 />
-            <Card16 />
-            <Card17 />
-            <Card18 />
-            <Card19 />
-          </section>
-        </main>
-      </div>
-    );
-  } catch (error) {
-    console.log(error);
-  }
+        <section className="i__2 bg-dark">
+          <Card1 />
+          <Card2 />
+          <Card3 />
+          <Card4 />
+          <Card5 />
+          <Card6 />
+          <Card7 />
+          <Card8 />
+          <Card9 />
+          <Card10 />
+          <Card11 />
+          <Card12 />
+          <Card13 />
+          <Card14 />
+          <Card15 />
+          <Card16 />
+          <Card17 />
+          <Card18 />
+          <Card19 />
+        </section>
+      </main>
+    </div>
+  );
 }
