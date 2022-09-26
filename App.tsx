@@ -32,10 +32,6 @@ import Card18 from './Components/Cards/Card18';
 import Card19 from './Components/Cards/Card19';
 
 export default function App() {
-  const error = (n, prop) => {
-    console.log(`Error n-> ${n}\nMensage -> ${prop}`);
-  };
-
   return (
     <div>
       <main className="i_____components">
